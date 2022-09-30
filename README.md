@@ -2,11 +2,10 @@
 
 # Jinja2CppMedium
 
-A "medium-lightweight" version of [jinja2cpp](https://github.com/jinja2cpp/Jinja2Cpp/).
+A "medium-lightweight" version of [jinja2cpp](https://github.com/jinja2cpp/Jinja2Cpp/) that features a better build system.
 
-For an even more lightweight version, check 
-out [Jinja2CppLight](https://github.com/hughperkins/Jinja2CppLight). However, 
-that version is less Jinja2-complaint.
+There is also [Jinja2CppLight](https://github.com/hughperkins/Jinja2CppLight). However, 
+that version supports less Jinja2 features.
 
 ### Improvements
 
@@ -16,7 +15,7 @@ script.
 
 Our improvements are:
 
-- A single and much simpler `CMakeLists.txt` (100 lines)
+- A single, more straightforward `CMakeLists.txt` (100 lines)
 - Removed all git submodules - link against (system) libs instead:
   - RapidJSON
   - Boost (`system`, `filesystem`)
